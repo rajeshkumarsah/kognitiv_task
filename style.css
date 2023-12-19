@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+header{
+    background: #151d44;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    padding: 8px;
+}
+.kog__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 76px);
+}
+.kog__wrapper-chart{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #979b9f;
+    font-size: 15px;
+    font-weight: 700;
+}
+.kog__wrapper-chart  #line-chart {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .kog__wrapper-chart .axis path,
+  .kog__wrapper-chart .axis line {
+    fill: none;
+    stroke: #ccc;
+    shape-rendering: crispEdges;
+  }
+
+  .kog__wrapper-chart .axis text {
+    font-size: 12px;
+    fill: #ccc;
+  }
+
+  .kog__wrapper-chart .line {
+    fill: none;
+    stroke-width: 1;
+  }
+
+  .kog__wrapper-chart .line.one {
+    stroke: #151d44;
+  }
+
+  .kog__wrapper-chart .line.two {
+    stroke: #22dbd1;
+  }
+ 
+ 
